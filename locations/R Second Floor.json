@@ -58,6 +58,27 @@
                 ],
                 "children": [
                     {
+                        "name": "Sitting Police Zombie at top of Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sitting Police Zombie at top of Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 159,
+                                "y": 124,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
                         "name": "Downed Zombie",
                         "access_rules": [],
                         "sections": [
@@ -71,7 +92,7 @@
                         "map_locations": [
                             {
                                 "map": "R Second Floor",
-                                "x": 157,
+                                "x": 154,
                                 "y": 124,
                                 "size": 3
                             }
@@ -194,22 +215,49 @@
                 "access_rules": [
                     "combatknife, valvehandle"
                 ],
-                "sections": [
-                    {
-                        "name": "Couch",
+				"children": [
+					{
+                        "name": "Licker outside STARS Office",
                         "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "R Second Floor",
-                        "x": 42,
-                        "y": 138,
-                        "size": 3
-                    }
-                ]
+                        "sections": [
+                            {
+                                "name": "Licker outside STARS Office",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 27,
+                                "y": 196,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+						"name": "Couch",
+						"access_rules": [],
+						"sections": [
+							{
+								"name": "Couch",
+								"access_rules": [],
+								"visibility_rules": [],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "R Second Floor",
+								"x": 42,
+								"y": 138,
+								"size": 3
+							}
+						]
+					}
+				]
             },
             {
                 "name": "STARS Office (LA)",
@@ -480,6 +528,69 @@
                 ],
                 "children": [
                     {
+                        "name": "Female Zombie near Spade Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie near Spade Door",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 110,
+                                "y": 190,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Overweight Zombie near Spade Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie near Spade Door",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 150,
+                                "y": 183,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie-Eating Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie-Eating Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 121,
+                                "y": 164,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
                         "name": "Downed Zombie",
                         "access_rules": [],
                         "sections": [
@@ -596,6 +707,33 @@
                 ],
                 "children": [
                     {
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Helicopter Crash Zombie 1",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Helicopter Crash Zombie 2",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Second Floor",
+                                "x": 371,
+                                "y": 236,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
                         "name": "Left of Art Room",
                         "access_rules": [],
                         "sections": [

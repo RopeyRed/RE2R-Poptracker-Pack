@@ -28,6 +28,48 @@
                                 "size": 2
                             }
                         ]
+                    },
+					{
+                        "name": "G-Adult before Monitor Room",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G-Adult before Monitor Room",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 314,
+                                "y": 140,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "G-Adult before Workroom",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G-Adult before Workroom",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 346,
+                                "y": 201,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
             },
@@ -55,7 +97,7 @@
                             }
                         ]
                     },
-		    {
+					{
                         "name": "On Ledge in Water by Trash",
                         "access_rules": [],
                         "sections": [
@@ -72,6 +114,69 @@
                                 "x": 279,
                                 "y": 175,
                                 "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Blue Jumpsuit Short Hair Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Blue Jumpsuit Short Hair Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 285,
+                                "y": 201,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Standing Overweight Vest Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Standing Overweight Vest Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 300,
+                                "y": 192,
+                                "size": 2,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Downed Overweight Vest Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Overweight Vest Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 277,
+                                "y": 185,
+                                "size": 2,
+								"shape": "trapezoid"
                             }
                         ]
                     }
@@ -190,6 +295,90 @@
                                 "size": 2
                             }
                         ]
+                    },
+					{
+                        "name": "First G-Adult",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "First G-Adult",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 191,
+                                "y": 245,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Second G-Adult",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Second G-Adult",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 159,
+                                "y": 240,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Third G-Adult from sewer hole",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Third G-Adult from sewer hole",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 135,
+                                "y": 219,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Fourth G-Adult before ladder",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Fourth G-Adult before ladder",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 266,
+                                "y": 223,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
             },
@@ -300,6 +489,29 @@
                                 "x": 81,
                                 "y": 233,
                                 "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Zombie hanging near King Plug",
+                        "access_rules": [
+						"queenplug"
+						],
+                        "sections": [
+                            {
+                                "name": "Zombie hanging near King Plug",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Lower",
+                                "x": 57,
+                                "y": 240,
+                                "size": 3,
+								"shape": "trapezoid"
                             }
                         ]
                     }

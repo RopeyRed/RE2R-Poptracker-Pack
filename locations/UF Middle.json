@@ -94,7 +94,37 @@
                             {
                                 "name": "Locker",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["standard"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Middle",
+                                "x": 140,
+                                "y": 324,
+                                "size": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+                "name": "Operators Room (LAH)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Locker",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Locker",
+                                "access_rules": [],
+                                "visibility_rules": ["hardcore"],
                                 "item_count": 1
                             }
                         ],

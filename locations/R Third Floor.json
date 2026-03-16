@@ -33,6 +33,34 @@
                             }
                         ]
                     },
+					{
+                        "name": "Zombie at top of Stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie at top of Stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 147,
+                                "y": 77,
+                                "size": 3,
+								"shape": "trapezoid"
+                            },
+                            {
+                                "map": "R Second Floor",
+                                "x": 131,
+                                "y": 91,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
                     {
                         "name": "Locked Locker (DCM)",
                         "access_rules": [],
@@ -163,6 +191,69 @@
                             }
                         ]
                     },
+					{
+                        "name": "Hanging Zombie After It Drops",
+                        "access_rules": ["[battery], [electronicgadget]"],
+                        "sections": [
+                            {
+                                "name": "Hanging Zombie After It Drops",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 83,
+                                "y": 173,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Explosion Loving Licker",
+                        "access_rules": ["battery, electronicgadget"],
+                        "sections": [
+                            {
+                                "name": "Explosion Loving Licker",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecksupdate"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 45,
+                                "y": 211,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Licker inside West Storage Room",
+                        "access_rules": ["unicornmedallion, lionmedallion, maidenmedallion, squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Licker",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 55,
+                                "y": 162,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
                     {
                         "name": "Maiden Statue",
                         "access_rules": [
@@ -210,6 +301,48 @@
                                 "x": 192,
                                 "y": 282,
                                 "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Plain Clothes Zombie",
+                        "access_rules": ["maidenmedallion, unicornmedallion, lionmedallion"],
+                        "sections": [
+                            {
+                                "name": "Plain Clothes Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 209,
+                                "y": 267,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Police Zombie",
+                        "access_rules": ["maidenmedallion, unicornmedallion, lionmedallion"],
+                        "sections": [
+                            {
+                                "name": "Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 225,
+                                "y": 265,
+                                "size": 3,
+								"shape": "trapezoid"
                             }
                         ]
                     }
@@ -333,6 +466,48 @@
                                 "x": 332,
                                 "y": 143,
                                 "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Dark Police Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dark Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 342,
+                                "y": 166,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Short-Haired Police Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Short-Haired Police Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Third Floor",
+                                "x": 303,
+                                "y": 166,
+                                "size": 3,
+								"shape": "trapezoid"
                             }
                         ]
                     },

@@ -7,6 +7,13 @@
         "codes": "spadekey"
     },
     {
+        "name": "Heart Key",
+        "type": "toggle",
+        "img": "images/items/heart-key.png",
+        "img_mods": "",
+        "codes": "heartkey"
+    },	
+    {
         "name": "Club Key",
         "type": "toggle",
         "img": "images/items/club-key.png",
@@ -293,7 +300,6 @@
         "img_mods": "",
         "codes": "combatknife"
     },
-
     {
         "name": "Spare Key",
         "type": "consumable",
@@ -303,5 +309,26 @@
         "initial_quantity": 0,
         "img": "images/items/spare-key.png",
         "codes": "sparekey"
+    },
+	{
+        "name": "Standard",
+        "type": "toggle",
+        "img": "images/items/standard.png",
+        "img_mods": "",
+        "codes": "standard"
+    },
+	{
+        "name": "Hardcore",
+        "type": "toggle",
+        "img": "images/items/hardcore.png",
+        "img_mods": "",
+        "codes": "hardcore"
+    },
+	{
+        "name": "Kill Checks",
+        "type": "toggle",
+        "img": "images/items/killchecks.png",
+        "img_mods": "",
+        "codes": "killchecks"
     }
 ]

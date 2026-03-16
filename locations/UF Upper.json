@@ -40,7 +40,7 @@
                             {
                                 "name": "Desk",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["standard"],
                                 "item_count": 1
                             }
                         ],
@@ -54,7 +54,35 @@
                         ]
                     }
                 ]
-            }     
+            },
+			{
+                "name": "Secret Room (LAH)",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Desk",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Desk",
+                                "access_rules": [],
+                                "visibility_rules": ["hardcore"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "UF Upper",
+                                "x": 204,
+                                "y": 148,
+                                "size": 6
+                            }
+                        ]
+                    }
+                ]
+            }
         ] 
     }
 ]

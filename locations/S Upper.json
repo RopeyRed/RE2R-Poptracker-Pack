@@ -48,6 +48,90 @@
                                 "size": 2
                             }
                         ]
+                    },
+					{
+                        "name": "Blue Jumpsuit Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Blue Jumpsuit Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 296,
+                                "y": 174,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Overweight Vest Zombie at bridge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Overweight Vest Zombie at bridge",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 287,
+                                "y": 169,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Gray Zombie across bridge",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Gray Zombie across bridge",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 289,
+                                "y": 144,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Hanging Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Hanging Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecksupdated"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 297,
+                                "y": 186,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
             },
@@ -125,35 +209,77 @@
                     }
                 ]
             },
-	    {
-                "name": "Water Injection Chamber (LA)",
-                "access_rules": [
-		"sewerskey"
-		],
+			{
+					"name": "Water Injection Chamber (LA)",
+					"access_rules": [
+						"sewerskey"
+					],
                 "children": [
                     {
-                        "name": "On Table 1&2",
+                        "name": "Left Side of Table",
                         "access_rules": [],
                         "sections": [
                             {
-                                "name": "On Table 1",
+                                "name": "Left Side of Table",
                                 "access_rules": [],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
- 			    {
-                                "name": "On Table 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
+						],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 295,
+                                "y": 132,
+                                "size": 3
                             }
-                        ],
+                        ]
+                    },
+					{
+                        "name": "Right Side of Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Right Side of Table",
+                                "access_rules": [],
+                                "visibility_rules": ["standard"],
+                                "item_count": 1
+                            },
+						],
                         "map_locations": [
                             {
                                 "map": "S Upper",
                                 "x": 299,
                                 "y": 132,
-                                "size": 2
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+			{
+					"name": "Water Injection Chamber (LAH)",
+					"access_rules": [
+						"sewerskey"
+					],
+                "children": [
+                    {
+                        "name": "Right side of Table",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Right side of Table",
+                                "access_rules": [],
+                                "visibility_rules": ["hardcore"],
+                                "item_count": 1
+                            },
+						],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 299,
+                                "y": 132,
+                                "size": 3
                             }
                         ]
                     }
@@ -268,6 +394,27 @@
                                 "x": 262,
                                 "y": 180,
                                 "size": 2
+                            }
+                        ]
+                    },
+					{
+                        "name": "Downed Plain Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Downed Plain Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "S Upper",
+                                "x": 262,
+                                "y": 171,
+                                "size": 2,
+								"shape": "trapezoid"
                             }
                         ]
                     }

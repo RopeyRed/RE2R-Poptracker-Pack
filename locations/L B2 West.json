@@ -186,6 +186,27 @@
                                 "size": 4
                             }
                         ]
+                    },
+					{
+                        "name": "G3 Boss Fight",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "G3 Boss Fight",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 West",
+                                "x": 283,
+                                "y": 183,
+                                "size": 4,
+								"shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
             }      

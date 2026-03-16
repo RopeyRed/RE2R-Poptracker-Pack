@@ -18,26 +18,31 @@
                         "item_height": 64,
                         "item_width": 64,
                         "rows": [
+							[
+								"standard",
+								"hardcore",
+								"killchecks"
+							],
                             [
-				"combatknife",
+								"combatknife",
                                 "spadekey",
                                 "diamondkey",
                                 "clubkey",
                                 "lionmedallion",
-   				"unicornmedallion",
-   				"maidenmedallion"
+								"unicornmedallion",
+								"maidenmedallion"
                             ],
                             [
                                 "smallgear",
                                 "largegear",
                                 "mechanicjackhandle",
                                 "squarecrank",
-				"boxedelectronicpart1",
-				"boxedelectronicpart2",
+								"boxedelectronicpart1",
+								"boxedelectronicpart2",
                                 "parkinggaragekeycard"
                             ],
                             [
-				"t-barhandle",
+								"t-barhandle",
                                 "pawnplug",
                                 "knightplug",
                                 "bishopplug",
@@ -69,7 +74,7 @@
                                 "bejeweledbox",
                                 "carkey",
                                 "sewerskey",
-				"fuse-breakroomhallway"
+								"fuse-breakroomhallway"
                             ]
                         ]
                     }

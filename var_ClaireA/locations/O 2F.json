@@ -1,0 +1,60 @@
+[
+    {
+        "name": "O 2F",
+        "access_rules": [
+        "parkinggaragekeycard"
+        ],
+        "children": [
+            {
+                "name": "Orphanage (CA)",
+                "access_rules": [
+					" "
+				],
+                "children": [
+                    {
+                        "name": "Bathroom Vanity",
+                        "access_rules": [
+							" "
+						],
+                        "sections": [
+                            {
+                                "name": "Bathroom Vanity",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "O 2F",
+                                "x": 215,
+                                "y": 113,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Laundry Basket",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Laundry Basket",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "O 2F",
+                                "x": 263,
+                                "y": 124,
+                                "size": 3
+                            }
+                        ]
+                    }
+                ]
+            }     
+        ] 
+    }
+]

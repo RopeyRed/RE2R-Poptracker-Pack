@@ -14,8 +14,8 @@
                     {
                         "name": "Police Car Trunk",
                         "access_rules": [
-			"carkey"
-			],
+							"carkey"
+						],
                         "sections": [
                             {
                                 "name": "Police Car Trunk",
@@ -32,7 +32,40 @@
                                 "size": 5
                             }
                         ]
-                    }
+                    },
+					{
+                        "name": "Dogs",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Dog Before Jailbreak 1",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog Before Jailbreak 2",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog Before Jailbreak 3",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 201,
+                                "y": 182,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
                 ]
             },
 	    {
@@ -172,6 +205,48 @@
                             }
                         ]
                     },
+					{
+                        "name": "Overweight Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Overweight Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 272,
+                                "y": 139,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Female Zombie",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Female Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 294,
+                                "y": 146,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
                     {
                         "name": "Diamond Room",
                         "access_rules": [	
@@ -245,6 +320,81 @@
                                 "size": 3
                             }
                         ]
+                    },
+					{
+                        "name": "Caged Dogs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Dog in Cage 1",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog in Cage 2",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Dog in Cage 3",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 336,
+                                "y": 196,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog from vent",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog from vent",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 303,
+                                "y": 177,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog jumping over debris outside doors",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog jumping over debris outside doors",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 358,
+                                "y": 230,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
             },
@@ -292,6 +442,48 @@
                             }
                         ]
                     },
+					{
+                        "name": "Zombie at Door",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Zombie at Door",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 386,
+                                "y": 224,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Sleepy Zombie at Diamond Key",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Sleepy Zombie at Diamond Key",
+                                "access_rules": ["diamondkey"],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 400,
+                                "y": 193,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
                     {
                         "name": "Next to Last Drawer",
                         "access_rules": [],
@@ -314,7 +506,7 @@
                     }
                 ]
             },
-	    {
+			{
                 "name": "Generator Room (LA)",
                 "access_rules": [
                 "squarecrank"
@@ -377,6 +569,48 @@
                                 "x": 413,
                                 "y": 159,
                                 "size": 3
+                            }
+                        ]
+                    },
+					{
+                        "name": "Action Dog behind fence",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Action Dog behind fence",
+                                "access_rules": [""],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 387,
+                                "y": 129,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Action Dog under fence outside door",
+                        "access_rules": ["squarecrank"],
+                        "sections": [
+                            {
+                                "name": "Action Dog under fence outside door",
+                                "access_rules": [""],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "R Basement",
+                                "x": 358,
+                                "y": 161,
+                                "size": 3,
+								"shape": "trapezoid"
                             }
                         ]
                     }

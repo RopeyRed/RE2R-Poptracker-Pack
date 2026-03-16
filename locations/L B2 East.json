@@ -88,6 +88,66 @@
                                 "size": 3
                             }
                         ]
+                    },
+					{
+                        "name": "Zombies",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Short Hair Lab Coat Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Very Short Hair Lab Coat Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Jumpsuit Zombie",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 387,
+                                "y": 183,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    },
+					{
+                        "name": "Lickers",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Licker from ceiling 1",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            },
+							{
+                                "name": "Licker from ceiling 2",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 186,
+                                "y": 202,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
             },
@@ -186,7 +246,36 @@
                         ]
                     }
                 ]
-            }      
+            },
+			{
+                "name": "Lobby Storage (LA)",
+                "access_rules": [
+		"signalmodulator"
+		],
+                "children": [
+                    {
+                        "name": "Lab Coat Zombie at bottom of stairs",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Lab Coat Zombie at bottom of stairs",
+                                "access_rules": [],
+                                "visibility_rules": ["killchecks"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "L B2 East",
+                                "x": 41,
+                                "y": 225,
+                                "size": 3,
+								"shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
+            } 
         ] 
     }
 ]

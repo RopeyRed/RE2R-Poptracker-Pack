@@ -36,10 +36,10 @@
                             }
                         },
                         {
-                            "title": "Outside RPD",
+                            "title": "Streets",
                             "content": {
                                 "type": "map",
-                                "maps": ["Outside RPD"]
+                                "maps": ["R Streets"]
                             }
                         }
                     ]

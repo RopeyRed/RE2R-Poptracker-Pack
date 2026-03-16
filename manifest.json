@@ -6,13 +6,13 @@
     "author": "the.real.solidus.snake",
     "variants": {
         "Map Tracker": {
-            "display_name": "Leon (A) Map Tracker",
+            "display_name": "Leon Map Tracker",
             "flags": [
                 "ap"
             ]
         },
-        "var_ItemsOnly": {
-            "display_name": "Items Only",
+        "var_ClaireA": {
+            "display_name": "Claire Map Tracker",
             "flags": [
                 "ap"
             ]
