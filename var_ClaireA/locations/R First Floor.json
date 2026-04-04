@@ -1687,7 +1687,7 @@
             {
                 "name": "Records Room (CA)",
                 "access_rules": [
-                "combatknife, heartkey"
+                "combatknife, boltcutters, heartkey"
                 ],
                 "children": [
                     {

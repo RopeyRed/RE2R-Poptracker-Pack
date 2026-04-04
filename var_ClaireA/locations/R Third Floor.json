@@ -585,7 +585,7 @@
             {
                 "name": "Side Stairs (CA)",
                 "access_rules": [
-                "combatknife, spadekey, heartkey",
+                "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion, diamondkey, heartkey",
                 "combatknife, spadekey, mechanicjackhandle"
                 ],
                 "children": [
@@ -654,7 +654,7 @@
             {
                 "name": "Balcony (CA)",
                 "access_rules": [
-                "combatknife, spadekey, heartkey",
+                "combatknife, spadekey, unicornmedallion, lionmedallion, maidenmedallion, diamondkey, heartkey",
                 "combatknife, spadekey, mechanicjackhandle"
                 ],
                 "children": [
